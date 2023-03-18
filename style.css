@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container table {
+  width: 50%;
+  height: 300px;
+  border: 2px solid black;
+}
+.container table th, .container table td {
+  text-align: center;
+  border: 2px solid black;
+}
+.container table .blue {
+  background-color: rgb(82, 157, 243);
+}
+.container table td:not(.blue) {
+  background-color: yellow;
+}/*# sourceMappingURL=style.css.map */

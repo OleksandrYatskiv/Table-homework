@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: center;
+    table{
+        width: 50%;
+        height: 300px;
+        border: 2px solid black;
+        th,td{
+            text-align: center;
+            border: 2px solid black;
+        }
+        .blue{
+            background-color: rgb(82, 157, 243);
+        }
+        td:not(.blue){
+            background-color: yellow;
+        }
+    }
+}
